@@ -36,10 +36,4 @@ class SalaryTracker:
         # calculate earned
         earned = elapsed_seconds * self.earnings_per_second
 
-        # check work time
-        if elapsed_seconds > self.total_seconds:
-            status = " (It is time to go Home!)"
-        else:
-            status = ""
-
-        return f"Current earnings: ${earned:.2f} | Last update: {current_time}{status}"
+        return f"Current earnings: ${earned:.2f} | Last update: {current_time}"
