@@ -2,8 +2,7 @@
 Salary Calculation Module
 
 According your hourly salary, daily working hour and workdays,
-this module can tell you how much you earned each second. It can track total work
-duration and completion status.
+this module can tell you how much you earned each second. It can track total work duration.
 """
 
 from datetime import datetime
